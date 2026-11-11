@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Esporte — Contatos</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Mundo Esporte</h1>
+    <p>Fale conosco</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="futebol.html">Futebol</a></li>
+      <li><a href="basquete.html">Basquete</a></li>
+      <li><a href="volei.html">Vôlei</a></li>
+      <li><a href="contatos.html" class="ativo">Contatos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Contatos</h2>
+      <p>
+        Tem uma pauta esportiva, uma dúvida ou quer sugerir um tema para o blog?
+        Fale com a nossa equipe pelos canais abaixo ou envie sua mensagem pelo
+        formulário.
+      </p>
+
+      <h3>Canais de atendimento</h3>
+      <ul>
+        <li>E-mail: contato@mundoesporte.com.br</li>
+        <li>Telefone / WhatsApp: (11) 90000-0000</li>
+        <li>Instagram: @mundoesporte</li>
+        <li>Endereço: Av. do Esporte, 1000 — São Paulo/SP</li>
+      </ul>
+
+      <h3>Formulário de contato</h3>
+      <form class="form-contato" action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+          <option value="sugestao">Sugestão de pauta</option>
+          <option value="duvida">Dúvida</option>
+          <option value="publicidade">Publicidade</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar mensagem</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mundo Esporte — Blog desenvolvido para fins educacionais. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
